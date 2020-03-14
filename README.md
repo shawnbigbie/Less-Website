@@ -1,5 +1,7 @@
 # preprocessing-project-DGM-2780
 
+LESS Watch Compailer: https://github.com/jonycheung/deadsimple-less-watch-compiler
+
 You are to demonstrate that you know how to use basic HTML and CSS by building a responsive two page webpage for one of these three companies:
 
 *Road Warriors* - Bike shop
@@ -56,4 +58,4 @@ We will be using git throughout the semester.  Each project much be forked and 
 
 - [ ] When you have completed the website, submit your repository URL
 
-The URL you used for layout is: https://www.hangar15bicycles.com/
+The URL you used for layout is: https://spaviadayspa.com/
