@@ -2,6 +2,10 @@
 
 LESS Watch Compailer: https://github.com/jonycheung/deadsimple-less-watch-compiler
 
+- [ ] Open Command Prompt
+- [ ] CD to folder (cd /d F:/)
+- [ ] type less-watch-compiler less css
+
 You are to demonstrate that you know how to use basic HTML and CSS by building a responsive two page webpage for one of these three companies:
 
 *Road Warriors* - Bike shop

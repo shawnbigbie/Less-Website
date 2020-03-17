@@ -1,4 +1,4 @@
-@import "fontawesome-all.min.css";
+@import "fontawesome-all.css";
 @font-face {
   font-family: 'Roboto';
   font-style: italic;
@@ -108,7 +108,7 @@ h1 {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  color: #666;
+  color: #ffffff;
   margin: 0 0 1em 0;
   font-weight: 100;
   line-height: 1.5em;
@@ -206,6 +206,7 @@ p {
   vertical-align: baseline;
   margin-bottom: 1em;
   text-align: justify;
+  color: #000000;
 }
 blockquote {
   margin: 0;
@@ -842,7 +843,6 @@ article {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
   display: block;
   margin-bottom: 3em;
 }
@@ -855,7 +855,6 @@ aside {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
   display: block;
 }
 canvas {
@@ -872,7 +871,6 @@ details {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
   display: block;
 }
 embed {
@@ -889,7 +887,6 @@ figure {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
   display: block;
 }
 figcaption {
@@ -898,7 +895,6 @@ figcaption {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
   display: block;
 }
 footer {
@@ -907,7 +903,6 @@ footer {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
   display: block;
   padding-top: 1.5em;
 }
@@ -917,7 +912,6 @@ header {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
   display: block;
   margin-bottom: 1em;
 }
@@ -950,7 +944,6 @@ hgroup {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
   display: block;
 }
 menu {
@@ -959,7 +952,6 @@ menu {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
   display: block;
 }
 nav {
@@ -968,7 +960,6 @@ nav {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
   display: block;
 }
 output {
@@ -993,7 +984,6 @@ section {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
   display: block;
   margin-bottom: 3em;
 }
@@ -1128,30 +1118,27 @@ body.is-preload *:after {
   color: #aaa;
   color: rgba(255, 255, 255, 0.65);
 }
-.dark h1 {
-  color: #fff;
-}
 .dark h2 {
-  color: #fff;
+  color: #000;
 }
 .dark h3 {
-  color: #fff;
+  color: #000;
 }
 .dark h4 {
-  color: #fff;
+  color: #000;
 }
 .dark h5 {
-  color: #fff;
+  color: #000;
 }
 .dark h6 {
-  color: #fff;
+  color: #000;
 }
 .dark strong {
-  color: #fff;
+  color: #000;
   color: rgba(255, 255, 255, 0.85);
 }
 .dark b {
-  color: #fff;
+  color: #000;
   color: rgba(255, 255, 255, 0.85);
 }
 .dark a {
@@ -1244,7 +1231,7 @@ body.is-preload *:after {
 .dark table.default tbody tr {
   border-color: rgba(255, 255, 255, 0.5);
 }
-.dark table.default tbody tr:nth-child(2n+2) {
+.dark table.default tbody tr p p t:nth-child(2nppt+2) {
   background: rgba(255, 255, 255, 0.1);
 }
 .dark input[type="button"] {
@@ -1277,15 +1264,15 @@ body.is-preload *:after {
   color: #fff;
 }
 .dark button:hover {
-  background: rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.5);
 }
 .dark .button {
   background: rgba(255, 255, 255, 0.15);
-  box-shadow: inset 0 0 0 1px #fff;
-  color: #fff;
+  box-shadow: inset 0 0 0 1px #000000;
+  color: #000;
 }
 .dark .button:hover {
-  background: rgba(255, 255, 255, 0.25);
+  background: rgba(0, 0, 0, 0.25);
 }
 .dark input[type="button"].alt {
   background: none;
@@ -1328,15 +1315,15 @@ body.is-preload *:after {
   box-shadow: inset 0 0 0 1px #fff;
 }
 .dark .feature-icon .icon {
-  background: rgba(255, 255, 255, 0.15);
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
-  color: #fff;
+  background: rgba(255, 255, 255);
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.5);
+  color: #000000;
 }
 .dark .feature-icon:before {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(0, 0, 0);
 }
 .dark .feature-icon:after {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(0, 0, 0);
 }
 hr {
   border: 0;
@@ -1604,7 +1591,7 @@ ul.icons a {
   color: #aaa;
 }
 ul.icons a:hover {
-  background: rgba(0, 0, 0, 0.025);
+  background: #7e7e7e;
 }
 ul.menu {
   cursor: default;
@@ -1688,7 +1675,7 @@ table.default {
 table.default tbody tr {
   border: solid 1px #e6e6e6;
 }
-table.default tbody tr:nth-child(2n+2) {
+table.default tbody tr p p t:nth-child(2nppt+2) {
   background: #f8f8f8;
 }
 table.default td {
@@ -1739,7 +1726,7 @@ input[type="submit"] {
   text-decoration: none;
 }
 input[type="submit"]:hover {
-  background: #4f4f4f;
+  background: #000000;
 }
 input[type="reset"] {
   -moz-transition: all 0.25s ease-in-out;
@@ -1759,7 +1746,7 @@ input[type="reset"] {
   text-decoration: none;
 }
 input[type="reset"]:hover {
-  background: #4f4f4f;
+  background: #000000;
 }
 button {
   -moz-transition: all 0.25s ease-in-out;
@@ -1923,11 +1910,11 @@ button.alt:hover {
 }
 #header header p {
   margin-top: 1.25em;
-  font-weight: 100;
   padding: 0;
   font-size: 1.25em;
   line-height: 1.5em;
   text-align: center;
+  color: #fff;
 }
 #header footer {
   padding-top: 1.5em;
@@ -1943,9 +1930,10 @@ button.alt:hover {
   margin: 0;
 }
 .main > header h2 {
-  font-size: 2.25em;
-  font-weight: 100;
+  font-size: 2.4em;
+  font-weight: 300%;
   margin-bottom: 0;
+  color: #ce9f50;
 }
 .main > header p {
   margin: 2em 0 0 0;
@@ -1962,13 +1950,13 @@ button.alt:hover {
   background: #433;
 }
 .main > .content.style1 {
-  background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #b39c68, #a56365, #412e4c);
+  background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #fafafa, #fafafa, #fafafa);
 }
 .main > .content.style2 {
-  background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #384955, #655361, #85505f);
+  background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #fafafa, #fafafa, #fafafa);
 }
 .main > .content.style3 {
-  background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #5f796b, #3a4e59, #2f394e);
+  background: url("images/bgtr.svg") bottom right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #fafafa, #fafafa, #fafafa);
 }
 .main > .content.style4 {
   padding-top: 0;
@@ -1980,17 +1968,19 @@ button.alt:hover {
   text-align: center;
   padding: 4em 0 8em 0;
   box-shadow: inset 0 1px 0 0 #e6e6e6;
+  background-color: #000000;
 }
 #footer .copyright {
   margin-top: 3em;
   font-size: 0.8em;
-  color: #aaa;
+  color: #ffffff;
 }
 #footer .copyright a {
   color: inherit;
 }
 #footer ul.icons a {
   box-shadow: inset 0 0 0 1px #d6d6d6;
+  color: #ffffff;
 }
 @media screen and (max-width: 1680px) {
   .container {
@@ -2920,7 +2910,7 @@ button.alt:hover {
     padding: 3em 20px 3em 20px;
   }
   .main > header h2 {
-    font-size: 1.5em;
+    font-size: 2.5em;
   }
   .main > .content {
     padding: 3em 20px 3em 20px;
